@@ -46,7 +46,7 @@ data class Formacao(val nome: String,  val nivel: Nivel, var conteudos: MutableL
         println("Conteúdos:")
         for (conteudo in conteudos) {
             println()
-            println("${conteudo.nome} --- Duracao de ${conteudo.duracao} minutos\n${conteudo.descricao}\n(Criado por ${conteudo.autor})")
+            println("${conteudo.nome} --- Duracao de ${conteudo.duracao} minutos\n${conteudo.descricao}\nCriado por ${conteudo.autor}")
         }
         println()
         println("Inscritos:")
